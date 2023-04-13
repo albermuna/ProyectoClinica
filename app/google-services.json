@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "888921286063",
+    "firebase_url": "https://proyectoclinica-73b74-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "proyectoclinica-73b74",
+    "storage_bucket": "proyectoclinica-73b74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888921286063:android:b5af19800f2b028af93b5a",
+        "android_client_info": {
+          "package_name": "com.example.proyectoclinica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888921286063-o6ovodn19k6f37eb4rfjv9veb38vt2gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proyectoclinica",
+            "certificate_hash": "874e3767323a00bd8f5c5d856ec2534d14a35046"
+          }
+        },
+        {
+          "client_id": "888921286063-suvpolv7ktms787quq5v99pm3rhiqug2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJJOH01VD9IpKzKsqv8xRzVSI43srTAgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888921286063-suvpolv7ktms787quq5v99pm3rhiqug2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
