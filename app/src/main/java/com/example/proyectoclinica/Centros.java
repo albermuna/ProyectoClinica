@@ -7,9 +7,9 @@ public class Centros {
     public Integer id;
     public String nombre;
     public String direccion;
-    public List<Doctores> doctoresCentro = new ArrayList<Doctores>;
-    public List<Pacientes> pacientesCentro = new ArrayList<Pacientes>;
-    public List<Citas> citasCentro = new ArrayList<Citas>;
+    public List<Doctores> doctoresCentro = new ArrayList<Doctores>();
+    public List<Pacientes> pacientesCentro = new ArrayList<Pacientes>();
+    public List<Citas> citasCentro = new ArrayList<Citas>();
 
     public Centros() {
 
