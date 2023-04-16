@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Centros {
-    public Integer id;
+    public Integer uid;
     public String nombre;
     public String direccion;
     public List<Doctores> doctoresCentro = new ArrayList<Doctores>();
@@ -15,10 +15,10 @@ public class Centros {
 
     }
 
-    public Centros(Integer id, String nombre, String direccion,
+    public Centros(Integer uid, String nombre, String direccion,
                    List<Doctores> doctoresCentro, List<Pacientes> pacientesCentro,
                    List<Citas> citasCentro) {
-        this.id = id;
+        this.uid = uid;
         this.nombre = nombre;
         this.direccion = direccion;
         this. doctoresCentro = doctoresCentro;
@@ -26,12 +26,12 @@ public class Centros {
         this.citasCentro = citasCentro;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUid(Integer uid) {
+        this.uid = uid;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getUid() {
+        return uid;
     }
 
     public void setNombre(String nombre) {
