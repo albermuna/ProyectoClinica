@@ -1,4 +1,6 @@
-package com.example.proyectoclinica;
+package com.example.proyectoclinica.clasespojo;
+
+import com.example.proyectoclinica.clasespojo.Citas;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.example.proyectoclinica;
+package com.example.proyectoclinica.clasespojo;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Centros {
-    public Integer uid;
+    public String uid;
     public String nombre;
     public String direccion;
     public List<Doctores> doctoresCentro = new ArrayList<Doctores>();
@@ -15,7 +15,7 @@ public class Centros {
 
     }
 
-    public Centros(Integer uid, String nombre, String direccion,
+    public Centros(String uid, String nombre, String direccion,
                    List<Doctores> doctoresCentro, List<Pacientes> pacientesCentro,
                    List<Citas> citasCentro) {
         this.uid = uid;
@@ -26,11 +26,11 @@ public class Centros {
         this.citasCentro = citasCentro;
     }
 
-    public void setUid(Integer uid) {
+    public void setUid(String uid) {
         this.uid = uid;
     }
 
-    public Integer getUid() {
+    public String getUid() {
         return uid;
     }
 
